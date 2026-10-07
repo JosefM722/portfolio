@@ -5,11 +5,15 @@ export default function Hero() {
       <div className="hero-left">
         <h1 className="gradient-text">Josef Mansourati</h1>
 
-        <h2>Full-Stack Developer Student</h2>
+        <h2>Web Developer | Fullstack Open Source</h2>
 
         <p>
-          Building modern and responsive web applications
-          with React, JavaScript and growing backend skills.
+          Building modern and responsive web applications with React,
+          JavaScript, TypeScript and Node.js.
+        </p>
+
+        <p>
+          Web Development student at Nackademin • Incoming LIA at Publicis Groupe
         </p>
 
         <div className="buttons">
@@ -25,7 +29,7 @@ export default function Hero() {
 
       <div className="code-box">
         <p>const developer = "Josef";</p>
-        <p>const stack = ["React", "JavaScript", "API"];</p>
+        <p>const stack = ["React", "TypeScript", "Node.js"];</p>
       </div>
 
     </section>

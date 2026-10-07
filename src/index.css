@@ -41,6 +41,8 @@ p {
   color: #cfcfcf;
 }
 
+/* Hero buttons */
+
 .buttons {
   display: flex;
   gap: 15px;
@@ -61,6 +63,8 @@ button:hover {
   opacity: 0.8;
 }
 
+/* Code box */
+
 .code-box {
   margin-top: 40px;
   background: #181818;
@@ -75,6 +79,8 @@ button:hover {
   font-family: monospace;
 }
 
+/* Projects */
+
 .project-card {
   margin-top: 25px;
   background: linear-gradient(145deg, #181818, #111);
@@ -87,11 +93,36 @@ button:hover {
 .project-card:hover {
   transform: translateY(-5px);
   border-color: #7c3aed;
+  box-shadow: 0 0 25px rgba(124, 58, 237, 0.4);
 }
 
 .project-card p {
   margin-top: 10px;
 }
+
+/* Project links */
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.project-links a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #7c3aed;
+  border-radius: 8px;
+  color: white;
+  transition: 0.3s;
+}
+
+.project-links a:hover {
+  background: #7c3aed;
+  color: white;
+}
+
+/* Navbar */
 
 .navbar {
   position: fixed;
@@ -125,6 +156,8 @@ button:hover {
   color: #7c3aed;
 }
 
+/* Links */
+
 a {
   color: white;
   text-decoration: none;
@@ -133,6 +166,8 @@ a {
 a:hover {
   color: #7c3aed;
 }
+
+/* Hero */
 
 .gradient-text {
   background: linear-gradient(90deg, #7c3aed, #3b82f6);
@@ -156,13 +191,7 @@ a:hover {
   right: 0;
 }
 
-.purple:hover {
-  box-shadow: 0 0 25px rgba(124, 58, 237, 0.4);
-}
-
-.purple:hover {
-  box-shadow: 0 0 25px rgba(124, 58, 237, 0.4);
-}
+/* Skills */
 
 .skills-grid {
   display: grid;
@@ -183,6 +212,8 @@ a:hover {
   transform: translateY(-5px);
   border-color: #7c3aed;
 }
+
+/* Contact */
 
 .contact-links {
   display: flex;
