@@ -1,3 +1,4 @@
+
 export default function Projects() {
   return (
     <section id="projects">
@@ -19,7 +20,6 @@ export default function Projects() {
           >
             GitHub
           </a>
-
           <a
             href="https://jobbportal-dun.vercel.app/"
             target="_blank"
@@ -45,6 +45,31 @@ export default function Projects() {
             rel="noopener noreferrer"
           >
             GitHub
+          </a>
+        </div>
+      </div>
+
+      <div className="project-card purple">
+        <h3>Todo App</h3>
+        <p>
+          A simple todo application built with JavaScript to
+          create, manage and organize tasks.
+        </p>
+
+        <div className="project-links">
+          <a
+            href="https://github.com/JosefM722/min-todo-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://josefm722.github.io/min-todo-app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Demo
           </a>
         </div>
       </div>
@@ -82,7 +107,6 @@ export default function Projects() {
           >
             GitHub
           </a>
-
           <a
             href="https://portfolio-omega-green-61.vercel.app/"
             target="_blank"
